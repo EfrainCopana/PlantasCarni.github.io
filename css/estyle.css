@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Estilos para el header */
+header {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+
+header img {
+
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para la navegación */
+nav {
+    width: 100%;
+    background-color: #B2AB2E;
+    color: #333;
+    text-align: center;
+}
+
+
+.contene{
+    width: 100%;
+    margin: 0 auto;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+nav ul li:hover{
+    transform: scale(1.2);
+    background: #cd333e;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+/* Estilos adicionales para el contenido principal y el pie de página */
+main {
+    padding: 20px;
+    background-color: #483948;
+    padding-bottom: 60px;
+}
+
+footer {
+    background-color: #180C0C;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 90%px;
+}
+@media screen and (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.contner{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.contner .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #EFB786;
+}
+
+.contner .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contner .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.contner .card h4{
+    font-weight: 600;
+}
+
+.contner .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contner .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
